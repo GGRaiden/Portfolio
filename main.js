@@ -14,7 +14,7 @@ if(navClose){
     })
 }
 
-const navLink = document.querySelectorAll('.nav_link')
+const navLink = document.querySelectorAll('.nav_link, .button-ghost')
 
 function linkAction(){
     const navMenu = document.getElementById('nav-menu')
