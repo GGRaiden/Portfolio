@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="atropos.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">
+                <img src="img/logo.svg" alt="" class="nav_logo-img">
+                MR
+            </a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">Home</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#aboutme" class="nav_link">About me</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#works" class="nav_link">Works</a>
+                    </li>
+
+                    <a href="#contact" class="button button-ghost">Contact</a>
+                </ul>
+
+                <div class="nav_close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <img src="img/nav-img.png" alt="" class="nav_img">
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home container" id="home">
+            <div class="swiper home-swiper">
+                <div class="swiper-wrapper">
+                    <section class="swiper-slide">
+                        <div class="home_content grid c1">
+                            <div class="home_group">
+                                <img src="img/home1-img.svg" alt="" class="home_img">
+                            </div>
+
+                            <div class="home_data">
+                                <h1 class="home_title">Hi, I'm Max</h1>
+                                <h3 class="home_subtitle">Front and back end developer</h3>
+                                <p class="home_description">My full name is Maxmilián Růžička, I live in Ratiboř, Czech Republic. I enjoy coding and other things!
+                                </p>
+
+                                <div class="home_buttons">
+                                    <a href="#contact" class="button">Conctant me <i class='bx bxs-send' ></i></a>
+                                    <a href="#" class="button-link button-flex">Learn more! <i class='bx bx-right-arrow-alt button_icon'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="swiper-slide">
+                        <div class="home_content grid c1">
+                            <div class="home_group">
+                                <img src="img/home2-img.svg" alt="" class="home_img">
+                            </div>
+
+                            <div class="home_data">
+                                <h1 class="home_title">ABOUT ME</h1>
+                                <p class="home_description">I play the piano, I used to play the accordion, I enjoy playing computer games and more!
+                                </p>
+
+                                <div class="home_buttons">
+                                    <a href="#aboutme" class="button">More about me!</a>
+                                    <a href="#" class="button-link button-flex">Learn more! <i class='bx bx-right-arrow-alt button_icon'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="swiper-slide">
+                        <div class="home_content grid c2">
+                            <div class="home_group">
+                                <img src="img/home3-img.svg" alt="" class="home_img">
+                            </div>
+
+                            <div>
+                                <h1 class="home_title">LET'S CREATE SOMETHING TOGETHER!</h1>
+                                <p class="home_description">I have experience in creating customized websites. You just need to have an idea and we can implement it together. For inspiration we can take a look at my work!
+                                </p>
+
+                                <div class="home_buttons">
+                                    <a href="#works" class="button">Look at them!</a>
+                                    <a href="#" class="button-link button-flex">Learn more! <i class='bx bx-right-arrow-alt button_icon'></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="section about" id="aboutme">
+            <div class="about_container container grid">
+                <div class="about_data">
+                    <h2 class="section_title about_title">About me</h2>
+                    <p class="about_description">I am student at Film High School in Zlín, or Crestive Hill College.
+                        I study here in field of computer game development and multimedia applications and as the name of the field suggests, I am interested in programming and coding.
+                        Since 2020, I bacame interested in web development for the talent test for that school and since then I have been enjoying creating websites!
+                    </p>
+                    <a href="#works" class="button">My works</a>
+                </div>
+
+                <img src="img/about-img.svg" alt="" class="about_img">
+            </div>
+        </section>
+
+        <section class="section hobbies">
+            <h2 class="section_title">My hobbies</h2>
+
+            <div class="hobbies_container container">
+                <div class="swiper hobbies-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="hobbies_content swiper-slide">
+                            <img src="img/Games.svg" alt="" class="hobbies_img">
+                            <h3 class="hobbies_title">Games</h3>
+                        </div>
+    
+                        <div class="hobbies_content swiper-slide">
+                            <img src="img/Programming.svg" alt="" class="hobbies_img">
+                            <h3 class="hobbies_title">Programming</h3>
+                        </div>
+    
+                        <div class="hobbies_content swiper-slide">
+                            <img src="img/Camera.svg" alt="" class="hobbies_img">
+                            <h3 class="hobbies_title">Fotography and filming</h3>
+                        </div>
+    
+                        <div class="hobbies_content swiper-slide">
+                            <img src="img/Swimming.svg" alt="" class="hobbies_img">
+                            <h3 class="hobbies_title">Swimming</h3>
+                        </div>
+
+                        <div class="hobbies_content swiper-slide">
+                            <img src="img/Music.svg" alt="" class="hobbies_img">
+                            <h3 class="hobbies_title">Music</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section category">
+            <h2 class="section_title">Languages <br> I fully or partially know</h2>
+
+            <div class="category_container container grid">
+                <div class="category_data">
+                    <img src="img/HTML.svg" alt="" class="category_img">
+                    <h3 class="category_title">HTML</h3>
+                    <p class="category_description">Basic language for creating a web page. Of all the languages, I probably know it the most.</p>
+                </div>
+
+                <div class="category_data">
+                    <img src="img/CSS.svg" alt="" class="category_img">
+                    <h3 class="category_title">CSS</h3>
+                    <p class="category_description">Language for graphic design of a web page. I'm familiar with this language too.</p>
+                </div>
+
+                <div class="category_data">
+                    <img src="img/JS.svg" alt="" class="category_img">
+                    <h3 class="category_title">JS</h3>
+                    <p class="category_description">Language for displaying hamburger menu and other attributes. I know it the least of the three languages, but I'm still learning.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section works content" id="works">
+            <h2 class="section_title data">Works</h2>
+            <h3 class="section_subtitle">Websites</h3>
+            <div class="works_container container grid">
+
+                <div class="atropos atropos1">
+                    <div class="atropos-scale">
+                      <div class="atropos-rotate">
+                        <div class="atropos-inner">
+                            <a href="https://ggraiden.github.io/Old-Portfolio/" target="_blank">
+                                <div class="works_content w1">
+                                    <h3 class="works_title">Old portfolio</h3>
+                                </div>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="atropos atropos2">
+                    <div class="atropos-scale">
+                      <div class="atropos-rotate">
+                        <div class="atropos-inner">
+                            <div class="works_content w2">
+                                <h3 class="works_title">Graphic design</h3>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <h3 class="section_subtitle">Photos</h3>
+            <div class="works_container container grid">
+                  <div class="atropos atropos3">
+                    <div class="atropos-scale">
+                      <div class="atropos-rotate">
+                        <div class="atropos-inner">
+                            <a href="https://us.zonerama.com/maxmilianruzicka1/Photo/1000012995/1000432743" target="_blank">
+                                <div class="works_content w3">
+                                    <h3 class="works_title">Portrait outside</h3>
+                                </div>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="atropos atropos4">
+                    <div class="atropos-scale">
+                      <div class="atropos-rotate">
+                        <div class="atropos-inner">
+                            <a href="https://us.zonerama.com/maxmilianruzicka1/Photo/1000012993/1000432721" target="_blank">
+                                <div class="works_content w4">
+                                    <h3 class="works_title">Portrait inside</h3>
+                                </div>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="contact_container container">
+                <h2 class="section_title">Contact me by email</h2>
+                <p class="contact_description">Send me an email with whatever requirements you want. Just fill in your email in the box below and click on contact.
+                </p>
+
+                <form action="" class="contact_form">
+                    <input type="email" placeholder="Enter your email" class="contact_input">
+                    <button class="button">
+                        Contact
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+        <footer class="footer section">
+            <div class="footer_container container grid">
+                <div class="footer_content">
+                    <a href="#" class="footer_logo">
+                        <img src="img/logo.svg" alt="" class="footer_logo-img">
+                        MR
+                    </a>
+
+                    <p class="footer_description">Check my social media <br> below!</p>
+                    
+                    <div class="footer_social">
+                        <a href="https://www.facebook.com/maxmilian.ruzicka" target="_blank" class="footer_social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://www.instagram.com/maxmilianruzicka" target="_blank" class="footer_social-link">
+                            <i class='bx bxl-instagram-alt' ></i>
+                        </a>
+                        <a href="https://twitter.com/GGR4iden" target="_blank" class="footer_social-link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_content">
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#aboutme" class="footer_link">About me</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer_content">
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#works" class="footer_link">Works</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer_content">
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#new" class="footer_link">New</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer_copy">&#169; Created with <i class='bx bxs-heart' id="heart"></i> by Maxmilián Růžička</span>
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scrollup_icon'></i>
+        </a>
+
+    <script src="scrollreveal.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="atropos.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
