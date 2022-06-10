@@ -469,29 +469,6 @@ button{
   overflow: hidden;
 }
 
-.footer_img-one,
-.footer_img-two{
-  position: absolute;
-  transition: .3s;
-}
-
-.footer_img-one{
-  width: 100px;
-  top: 6rem;
-  right: -2rem;
-}
-
-.footer_img-two{
-  width: 150px;
-  bottom: 4rem;
-  right: 4rem;
-}
-
-.footer_img-one:hover,
-.footer_img-two:hover{
-  transform: translateY(-.5rem);
-}
-
 .footer_container{
   row-gap: 2rem;
 }
@@ -721,12 +698,6 @@ button{
     justify-items: center;
     column-gap: 1rem;
   }
-
-  .footer_img-two{
-    right: initial;
-    bottom: 0;
-    left: 15%;
-  }
 }
 
 @media screen and (min-width: 992px){
@@ -852,14 +823,3 @@ button{
   .swiper-pagination{
     margin-top: 2.5rem;
   }
-
-  .footer_img-one{
-    width: 120px;
-  }
-
-  .footer_img-two{
-    width: 180px;
-    top: 30%;
-    left: -3%;
-  }
-}
